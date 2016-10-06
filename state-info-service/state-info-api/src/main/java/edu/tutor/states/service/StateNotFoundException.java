@@ -1,0 +1,36 @@
+package edu.tutor.states.service;
+
+public class StateNotFoundException extends Exception
+{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public StateNotFoundException()
+	{
+		;
+	}
+
+	public StateNotFoundException(String arg0)
+	{
+		super(arg0);
+	}
+
+	public StateNotFoundException(Throwable arg0)
+	{
+		super(arg0);
+	}
+
+	public StateNotFoundException(String arg0, Throwable arg1)
+	{
+		super(arg0, arg1);
+	}
+
+	public StateNotFoundException(String arg0, Throwable arg1, boolean arg2, boolean arg3)
+	{
+		super(arg0, arg1, arg2, arg3);
+	}
+
+}

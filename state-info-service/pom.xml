@@ -14,9 +14,25 @@
 
   <name>${project.groupId}:${project.artifactId}</name>
 
-  <modules>
-    <module>state-info-api</module>
-    <module>state-info-stub</module>
-  </modules>
+  <profiles>
+    <profile>
+      <id>default</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <modules>
+        <module>state-info-api</module>
+        <module>state-info-stub</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>integration-test</id>
+      <modules>
+        <module>state-info-api</module>
+        <module>state-info-stub</module>
+        <module>state-info-it</module>
+      </modules>
+    </profile>
+  </profiles>
 
 </project>

@@ -87,7 +87,7 @@ public class StateLookupStub implements StateLookup
 	{
 		for (StateDataRecord curState : stateRecords)
 		{
-			if ((curState.getCountry().equals(country)) && (curState.getCode().equals(code)))
+			if ((curState.getCountry().equals(country.toUpperCase())) && (curState.getCode().equals(code.toUpperCase())))
 			{
 				return (curState.toState());
 			}
@@ -103,7 +103,7 @@ public class StateLookupStub implements StateLookup
 
 		for (StateDataRecord curState : stateRecords)
 		{
-			if (curState.getCountry().equals(country))
+			if (curState.getCountry().equals(country.toUpperCase()))
 			{
 				answer.add(curState.toState());
 			}
@@ -119,7 +119,7 @@ public class StateLookupStub implements StateLookup
 
 		for (StateDataRecord curState : stateRecords)
 		{
-			if (curState.getCode().equals(code))
+			if (curState.getCode().equals(code.toUpperCase()))
 			{
 				answer.add(curState.toState());
 			}

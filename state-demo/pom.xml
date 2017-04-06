@@ -5,7 +5,7 @@
   <parent>
     <groupId>edu.tutor.states</groupId>
     <artifactId>state-service</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
   </parent>
 
   <artifactId>state-demo</artifactId>
@@ -44,12 +44,12 @@
   	<dependency>
   		<groupId>edu.tutor.states.service</groupId>
   		<artifactId>state-info-api</artifactId>
-  		<version>1.0</version>
+  		<version>1.1-SNAPSHOT</version>
   	</dependency>
   	<dependency>
   		<groupId>edu.tutor.states.service.stub</groupId>
   		<artifactId>state-info-stub</artifactId>
-  		<version>0.0.1</version>
+  		<version>0.0.2-SNAPSHOT</version>
   	</dependency>
   </dependencies>
 

@@ -13,7 +13,6 @@
   <scm>
     <url>https://github.com/MaskedBit/state-service</url>
     <connection>scm:git:git://github.com/MaskedBit/state-service.git</connection>
-    <developerConnection>scm:git:git@github.com:MaskedBit/state-service.git</developerConnection>
   </scm>
 
   <modules>
